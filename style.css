@@ -1,0 +1,19 @@
+body{
+    background: #f6f5f4;
+}
+.form{
+    width: 500px;
+    background: white;
+    margin: 100px auto;
+    padding: 50px;
+}
+.form-input{
+    height: 60px;
+    background: #f6f5f4;
+    border: none;
+    padding: 0 10px;
+    width: 100%;
+}
+.form-submit{
+    background: black;
+}
