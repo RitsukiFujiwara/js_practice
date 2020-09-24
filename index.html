@@ -7,10 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="" class="form">
-        タイトル
-        <input type="text" name="title" class="form-input">
-        <input type="submit" value="送信する"　class="form-submit">
-    </form>
+    <button class="btn js-show-modal">Show Modal</button>
+    <div class="modal js-show-modal-target">
+        <h2>サンプルタイトル</h2>
+        <p>サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
+        <button class="btn btn-close js-hide-modal">閉じる</button>
+    </div>
+    <div class="cover js-show-modal-cover"></div>
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+
+
+    <script src="app.js"></script>
 </body>
 </html>
